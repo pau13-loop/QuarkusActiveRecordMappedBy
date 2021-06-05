@@ -72,13 +72,13 @@
     <!-- JDBC driver dependencies -->
     <dependency>
       <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-jdbc-postgresql</artifactId>
+      <artifactId>quarkus-jdbc-mariadb</artifactId>
     </dependency>
-    <!-- PostgreSQL Container Testing -->
+    <!-- MariaDB Container Testing -->
     <dependency>
       <groupId>org.testcontainers</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>1.15.2</version>
+      <artifactId>mariadb</artifactId>
+      <version>1.15.3</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
