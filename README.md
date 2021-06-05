@@ -1,0 +1,1 @@
+mvn io.quarkus:quarkus-maven-plugin:1.13.1.Final:create -DprojectGroupId=edu.pingpong -DprojectArtifactId=activerecord -DclassName="edu.pingpong.activerecord.PeopleResource" -Dpath="/people"
