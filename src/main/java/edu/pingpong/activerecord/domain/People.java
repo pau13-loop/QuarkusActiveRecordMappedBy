@@ -53,11 +53,19 @@ public class People extends PanacheEntityBase {
         this.age = age;
     }
 
-    public Band getBand_name() {
-        return band;
+    @Override
+    public String toString() {
+        return "People: " + this.name + ", age: " + this.age + ", band: " + this.band;
     }
 
-    public void setBand_name(Band band) {
-        this.band = band;
-    }
+    // ¡¡¡ DON'T ADD THIS OR YOU'LL GET DUPLICATE RESULTS !!!
+    // public Band getBand_name() {
+    //     return band;
+    // }
+
+    // public void setBand_name(Band band) {
+    //     this.band = band;
+    // }
+
+    
 }
